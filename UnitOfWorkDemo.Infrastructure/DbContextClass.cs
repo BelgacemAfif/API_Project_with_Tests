@@ -15,6 +15,10 @@ namespace UnitOfWorkDemo.Infrastructure
         {
 
         }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlite("Filename=People.db");
+        //}
 
         public DbSet<ProductDetails> Products { get; set; }
     }
